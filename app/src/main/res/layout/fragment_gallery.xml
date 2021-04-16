@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#FFFFFF"
+    app:layout_constraintCircleRadius="100dp"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/purple_200"
+        android:clickable="true"
+        android:scrollbarThumbHorizontal="@drawable/ic_baseline_add_24"
+        android:src="@drawable/ic_baseline_add_24"
+        android:tint="@color/purple_500"
+        app:backgroundTint="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931"
+        app:rippleColor="#FFFFFF" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/searchBar"
+            style="@style/MaterialSearchBarLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="6dp"
+            android:outlineAmbientShadowColor="@color/cardview_dark_background"
+            android:outlineSpotShadowColor="@color/cardview_dark_background"
+            app:mt_backIconTint="#939393"
+            app:mt_clearIconTint="#939393"
+            app:mt_hint="Search Contact"
+            app:mt_maxSuggestionsCount="10"
+            app:mt_placeholder="Search"
+            app:mt_roundedSearchBarEnabled="true"
+            app:mt_searchBarColor="#E9F3F3F3"
+            app:mt_searchIconTint="#939393"
+            app:mt_speechMode="false"
+            app:mt_textColor="@color/black" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvcontact1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

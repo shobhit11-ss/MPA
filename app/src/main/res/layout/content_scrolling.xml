@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/searchBar"
+        style="@style/MaterialSearchBarLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:outlineAmbientShadowColor="@color/cardview_dark_background"
+        android:outlineSpotShadowColor="@color/cardview_dark_background"
+        app:mt_searchBarColor="#E9F3F3F3"
+        app:mt_backIconTint="#939393"
+        app:mt_clearIconTint="#939393"
+        app:mt_hint="Search Contact"
+        app:mt_maxSuggestionsCount="10"
+        app:mt_roundedSearchBarEnabled="true"
+        app:mt_searchIconTint="#939393"
+        app:mt_speechMode="false"
+        app:mt_placeholder="Search"
+        app:mt_textColor="@color/black"
+       />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvcontact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
