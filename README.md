@@ -32,8 +32,10 @@ Hard Disk Space: 8GB & Above
 Instructions:
 1. Pull the repository.
 2. Use Android Studio to Run the App on Emulator.
+	
 	-OR-
-Link to the APK: 
+	
+Link to the APK: https://drive.google.com/drive/folders/1Ex44ERIzIyHGpZlvXrKFUuizRmzlZ3cF?usp=sharing
 1. Download the APK
 2. Allow installation from unknown sources
 3. Go to the MPA app info in settings and allow all the permissions.
