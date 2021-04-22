@@ -1,4 +1,5 @@
 # MPA
+
 CS331 - Final Project - Winter Sem'2021
 
 Category: Mobile Application 
@@ -27,3 +28,13 @@ Hardware Requirements
 Processor: Any OEM Processor on an Android Phone
 RAM: 2GB & Above
 Hard Disk Space: 8GB & Above
+
+Instructions:
+1. Pull the repository.
+2. Use Android Studio to Run the App on Emulator.
+	-OR-
+Link to the APK: 
+1. Download the APK
+2. Allow installation from unknown sources
+3. Go to the MPA app info in settings and allow all the permissions.
+4. Now launch the app.
